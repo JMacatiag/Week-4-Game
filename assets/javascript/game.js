@@ -46,18 +46,28 @@ function generateCrystals (){
 }
 generateCrystals();
 
+
 // gameplay
 
 //click first image
 $("#firstCrystal").on("click",function(){
 	totalScore=totalScore+crystalOne;
 	$("#totalScore").text(totalScore);
-	console.log(totalScore);
 	if (totalScore===targetNumber){
 		wins++;
 		generateTarget();
 		generateCrystals();
 		totalScore=0;
+		$("#totalScore").text(totalScore);
+		$("#winsNumber").text(wins);
+	}
+	if (totalScore>targetNumber){
+		losses++;
+		generateTarget();
+		generateCrystals();
+		totalScore=0;
+		$("#totalScore").text(totalScore);
+		$("#lossesNumber").text(losses);
 	}
 })
 
@@ -65,12 +75,21 @@ $("#firstCrystal").on("click",function(){
 $("#secondCrystal").on("click",function(){
 	totalScore=totalScore+crystalTwo;
 	$("#totalScore").text(totalScore);
-	console.log(totalScore);
 	if (totalScore===targetNumber){
 		wins++;
 		generateTarget();
 		generateCrystals();
 		totalScore=0;
+		$("#totalScore").text(totalScore);
+		$("#winsNumber").text(wins);
+	}
+	if (totalScore>targetNumber){
+		losses++;
+		generateTarget();
+		generateCrystals();
+		totalScore=0;
+		$("#totalScore").text(totalScore);
+		$("#lossesNumber").text(losses);
 	}
 })
 
@@ -78,12 +97,21 @@ $("#secondCrystal").on("click",function(){
 $("#thirdCrystal").on("click",function(){
 	totalScore=totalScore+crystalThree;
 	$("#totalScore").text(totalScore);
-	console.log(totalScore);
 	if (totalScore===targetNumber){
 		wins++;
 		generateTarget();
 		generateCrystals();
 		totalScore=0;
+		$("#totalScore").text(totalScore);
+		$("#winsNumber").text(wins);
+	}
+	if (totalScore>targetNumber){
+		losses++;
+		generateTarget();
+		generateCrystals();
+		totalScore=0;
+		$("#totalScore").text(totalScore);
+		$("#lossesNumber").text(losses);
 	}
 })
 
@@ -91,12 +119,21 @@ $("#thirdCrystal").on("click",function(){
 $("#fourthCrystal").on("click",function(){
 	totalScore=totalScore+crystalFour;
 	$("#totalScore").text(totalScore);
-	console.log(totalScore);
 	if (totalScore===targetNumber){
 		wins++;
 		generateTarget();
 		generateCrystals();
 		totalScore=0;
+		$("#totalScore").text(totalScore);
+		$("#winsNumber").text(wins);
+	}
+	if (totalScore>targetNumber){
+		losses++;
+		generateTarget();
+		generateCrystals();
+		totalScore=0;
+		$("#totalScore").text(totalScore);
+		$("#lossesNumber").text(losses);
 	}
 })
 

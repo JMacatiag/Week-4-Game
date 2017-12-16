@@ -3,6 +3,11 @@ background-image: url("../images/space.jpg");
 background-color: #cccccc;
 }
 
+p {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
 .crystalsHeader {
 	color: white;
 	background-color: #c97126;
@@ -16,7 +21,6 @@ background-color: #cccccc;
 .instructions {
 	color: #69ab62;
 	background-color:#fbe6cd;
-	width: 500px;
 	margin-top: 15px;
 	margin-left: 15px;
 }
@@ -24,14 +28,12 @@ background-color: #cccccc;
 #randomNumberDisplay {
 	background-color:#5bc880;
 	font-size: 45px;
-	width: 250px;
 	margin-top: 15px;
 	margin-left: 15px;
 }
 
 .winLose{
 	background-color:#4afdfe;
-	width: 100px;
 	margin-top: 15px;
 }
 
@@ -56,4 +58,8 @@ background-color: #cccccc;
 	font-size:45px;
 	margin-top: 15px;
 	margin-left: 15px;
+}
+
+#thanos {
+	width: 60%;
 }
