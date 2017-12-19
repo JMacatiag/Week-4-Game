@@ -10,9 +10,10 @@ p {
 
 .crystalsHeader {
 	color: white;
+	font-size: 25px;
+	font-weight: bold;
 	background-color: #c97126;
-	width: 200px;
-	padding: 20px;
+	padding: 10px;
 	margin-top: 15px;
 	margin-left: 15px;
 
@@ -20,9 +21,11 @@ p {
 
 .instructions {
 	color: #69ab62;
+	font-weight: bold;
 	background-color:#fbe6cd;
 	margin-top: 15px;
 	margin-left: 15px;
+	margin-right: 15px;
 }
 
 #randomNumberDisplay {
