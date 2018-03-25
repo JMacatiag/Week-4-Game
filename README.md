@@ -6,5 +6,6 @@
 
 ### Stack Used
 	* Javascript
+	* jQuery
 	* HTML/CSS
 	* Bootstrap
